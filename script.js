@@ -18,6 +18,8 @@ insertNote = () => {
 
         input.value = '';
     } else {
+        alert(`não digitou nada`)
+        return false
         notes.push('---');
         noteList.innerText = '';
         notes.forEach((item) => {
